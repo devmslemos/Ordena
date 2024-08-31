@@ -2,25 +2,60 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../styles/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agenda Pro</title>
-    <style>
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #f0f0f0;
-        }
-        h1 {
-            font-size: 3em;
-            color: #333;
-        }
-    </style>
+    <title>Ordena</title>
 </head>
 <body>
-    <h1>Agenda Pro</h1>
+    <div class="container">
+        <div class="form-image">
+            <img src="../imagens/undraw_schedule_re_2vro.svg" alt="">
+        </div>
+        <div class="form">
+            <form action="https://webhook.site/14a9d4d3-c5f6-4310-b7c8-4fe00b0d1866">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Crie sua conta</h1>
+                    </div>
+                </div>
+    
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input id="firstname" name="firstname" type="text" placeholder="Digite seu Nome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" name="lastname" type="text" placeholder="Digite seu Sobrenome" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="Digite seu E-mail" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input id="password" name="password" type="password" placeholder="Digite sua Senha" required>
+                    </div>
+                    <div class="input-box">
+                        <label for="confirmpassword">Confirme sua Senha</label>
+                        <input id="confirmpassword" name="confirmpassword" type="password" placeholder="Confirme sua Senha" required>
+                    </div>
+                </div>
+    
+                <div class="signup-button">
+                    <button type="submit">Crie sua Conta</button>
+                </div>
+                <br>
+                <div class="termos">
+                    <label for="termos">Ao continuar você está de acordo com nossos <b>Termos de Uso</b> e <b>Política de Privacidade</b></label>
+                </div>
+                <br>
+                <div class="login-button">
+                    <label for="login-button">Já possui conta?</label>
+                    <a href="#"><button type="button">Entrar</button></a>
+                </div>
+            </form>
+        </div>
+    </div>
 </body>
 </html>
